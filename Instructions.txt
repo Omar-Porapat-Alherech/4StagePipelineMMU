@@ -1,0 +1,6 @@
+1) Load instructions in the example format seen in python_assembler/asm_input.txt
+2) Run the python file -> python Assembler.py (python 37)
+3) Copy the output file Atrelis.txt into \Pipelined Multimedia Unit\src and rename to asm_input.txt
+4) Compile all files in active hdl - initialize testbench
+5) run for any amount of time 
+6) Output is generated in \Pipelined Multimedia Unit\mmu_Output.txt
