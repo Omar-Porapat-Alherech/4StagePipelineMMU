@@ -1,0 +1,48 @@
+Active-HDL 11.1.262.7351 2020-11-29 17:16:20
+
+Elaboration top modules:
+Architecture                  p_mmu_tb_arch(p_mmu_tb_ent)
+
+
+------------------------------------------------------------------------------------------------------------------------
+Entity             | Architecture    | Library                   | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------------------------------
+p_mmu_tb_ent       | p_mmu_tb_arch   | pipelined_multimedia_unit |      | 11.1.262.7351 (Windows) | -O3 -2008
+p_mmu_ent          | p_mmu_arch      | pipelined_multimedia_unit |      | 11.1.262.7351 (Windows) | -O3
+stage1_ent         | stage1_arch     | pipelined_multimedia_unit |      | 11.1.262.7351 (Windows) | -O3
+stage2_ent         | stage2_behavior | pipelined_multimedia_unit |      | 11.1.262.7351 (Windows) | -O3
+ID_EX              | behavorial      | pipelined_multimedia_unit |      | 11.1.262.7351 (Windows) | -O3
+stage3_ent         | stage3_ent      | pipelined_multimedia_unit |      | 11.1.262.7351 (Windows) | -O3
+ex_wb_ent          | ex_wb_arch      | pipelined_multimedia_unit |      | 11.1.262.7351 (Windows) | -O3
+p_counter          | p_counter       | pipelined_multimedia_unit |      | 11.1.262.7351 (Windows) | -O3
+Instruction_Buffer | behavorial      | pipelined_multimedia_unit |      | 11.1.262.7351 (Windows) | -O3
+IF_ID              | IF_ID           | pipelined_multimedia_unit |      | 11.1.262.7351 (Windows) | -O3
+Register_File      | behavorial      | pipelined_multimedia_unit |      | 11.1.262.7351 (Windows) | -O3
+Forwarding_Unit    | Forwarding_Unit | pipelined_multimedia_unit |      | 11.1.262.7351 (Windows) | -O3
+mux21              | mux21           | pipelined_multimedia_unit |      | 11.1.262.7351 (Windows) | -O3
+alu                | behavorial      | pipelined_multimedia_unit |      | 11.1.262.7351 (Windows) | -O3
+------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------
+VHDL Package                         | Library                   | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------------------------------
+standard                             | std                       |      |                         | <unavailable>
+TEXTIO                               | std                       |      |                         | <unavailable>
+std_logic_1164                       | ieee                      |      |                         | <unavailable>
+NUMERIC_STD                          | ieee                      |      |                         | <unavailable>
+STD_LOGIC_TEXTIO                     | ieee                      |      |                         | <unavailable>
+------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------
+Library                              | Comment
+------------------------------------------------------------------------------------------------------------------------
+ieee                                 | Standard IEEE packages library
+pipelined_multimedia_unit            | None
+std                                  | Standard VHDL library
+------------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 -L pipelined_multimedia_unit -L ieee +accb +accr +access +r +access +r+w p_mmu_tb_ent p_mmu_tb_arch
+
+
+The performance of simulation is reduced. Version Student Edition

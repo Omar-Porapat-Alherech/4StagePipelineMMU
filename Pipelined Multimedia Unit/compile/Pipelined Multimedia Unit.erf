@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Users/Porapat/Downloads/345_Project/Pipelined Multimedia Unit/src/p_mmu_tb.vhd" 
+MESSAGE "Compile Entity "p_mmu_tb_ent"" 
+MESSAGE "Compile Architecture "p_mmu_tb_arch" of Entity "p_mmu_tb_ent"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]" 

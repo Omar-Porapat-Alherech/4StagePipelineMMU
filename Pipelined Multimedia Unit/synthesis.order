@@ -1,0 +1,16 @@
+i<>.\src\Instruction_Buffer.vhd
+i<>.\src\Register_File.vhd
+i<>.\src\Forwarding_Unit.vhd
+i<>.\src\IF_ID.vhd
+i<>.\src\PC.vhd
+i<>.\src\ALU.vhd
+i<>.\src\ID_EX.vhd
+i<>.\src\stage1.vhd
+i<>.\src\stage1_tb.vhd
+i<>.\src\stage2.vhd
+i<>.\src\EX_WB.vhd
+i<>.\src\2_1mux.vhd
+i<>.\src\p_mmu.vhd
+i<>.\src\stage3.vhd
+i<>.\src\p_mmu_tb.vhd
+i<>.\src\decoder.vhd

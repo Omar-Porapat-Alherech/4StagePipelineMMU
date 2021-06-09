@@ -1,0 +1,12 @@
+[Version]
+Version=11.1
+[Designs]
+pipelined multimedia unit=.\Pipelined Multimedia Unit\Pipelined Multimedia Unit.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+pipelined multimedia unit=1
